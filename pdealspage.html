@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>>Bootstrap Example-Pizzahut webpage</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <!--font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Sevillana&amp;display=swap" rel="stylesheet">
+  <!--animation link-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+  <style>
+    body {
+      background-image: url(../pizzaweb/Assets/bg\ img.jpeg);
+      font-style: italic;
+    }
+
+    .card:hover {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .a:hover {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="header" style=" line-height:95px ; width: 100%;">
+    <div class="container">
+      <a href="#"><img src="../pizzaweb/Assets/logologo.png"
+          style="width:245px;height:56px;position: relative;left:400px "></a>
+    </div>
+  </div><br>
+  <br>
+
+
+  <nav class="border-box;" style="border: 0 solid rgb(236, 230, 230);border-top-width: 1px;"data-aos="fade-up" data-aos-offset="200">
+    <div class="container">
+
+      <ul class="nav nav-pills nav-justified" role="tablist">
+        <li class="nav-item ;justify-content:center;" style="border-right:1px solid rgb(128, 113, 113)"></li>
+
+        <li class="nav-item justify-content:center;" style="border-right:1px solid rgb(128, 113, 113);">
+          <a class="nav-link  btn " data-toggle="pill" href="#Pizza">
+            <h5 class="text-body"><b>Pizza</b></h5>
+          </a>
+
+        </li>
+        <li class="nav-item justify-content:center;" style="border-right:1px solid rgb(128, 113, 113)">
+          <a class="nav-link  btn " data-toggle="pill" href="#Sides">
+            <h5 class="text-body"><b>Sides</b></h5>
+          </a>
+        </li>
+        <li class="nav-item justify-content:center;" style="border-right:1px solid rgb(128, 113, 113)">
+          <a class="nav-link  btn " data-toggle="pill" href="#Desserts">
+            <h5 class="text-body"><b>Desserts</b></h5>
+          </a>
+        </li>
+        <li class="nav-item justify-content:center;" style="border-right:1px solid rgb(128, 113, 113)">
+          <a class="nav-link btn  " data-toggle="pill" href="#Drinks">
+            <h5 class="text-body"><b>Drinks</b></h5>
+          </a>
+        </li>
+        <li class="nav-item justify-content:center;" style="border-right:1px solid rgb(128, 113, 113);">
+          <a class=" nav-link  btn " data-toggle="pill" href="#Deals ">
+            <h5 class="text-body"><b>Deals</b></h5>
+          </a>
+        </li>
+        <li class="nav-item justify-content:center;" style="border-right:0px solid rgb(128, 113, 113)"></li>
+      </ul>
+    </div>
+  </nav>
+  <br>
+
+
+  <div class="container ">
+    <div class="tab-content" data-aos="fade-up" data-aos-offset="200">
+      <div id="Deals" class="container tab-pane active"><br>
+        <h2 style="text-align:center;"><b>Our Deals</b></h2><br>
+        <u><em>
+            <p style="text-align:center;">Check out the latest meal deals available from Pizza Hut </p>
+          </em></u>
+      </div>
+    </div>
+  </div><br>
+  <br>
+
+  <div class="container" data-aos="fade-left" data-aos-offset="200" data-aos="fade-up" data-aos-offset="200">
+    <div class="row">
+      <div class="col-3">
+        <div class="card" style="width:270px;height:400px;">
+          <img class="card-img-top" src="../pizzaweb/Assets/deals1.jpeg" style="width:100%;">
+          <div class="card-body">
+            <h2 class="card-title" style="font-size:17px;line-height:1;text-align:left;font-weight:25px">Super Value
+              Deal : 2 Medium Pizzas starting at
+              Rs 649</h2>
+            <p class="card-text text-left" style="font-size:15px;line-height:1.7">Choose any 2 of your favorite medium
+              pizza</p><br><br><br><br>
+            <a href="#" class="btn btn-success  btn-block btn-lg">View more</a>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-3"data-aos="fade-up" data-aos-offset="200">
+        <div class="card" style="width:265px;height:400px;">
+          <img class="card-img-top" src="../pizzaweb/Assets/deals2.jpeg" style="width:100%">
+          <div class="card-body">
+            <h2 class="card-title" style="font-size: 17px;line-height: 1;text-align: left;font-weight:25px">Super Saver
+              Meal Combo starting at Rs.799 (Save
+              Upto 38%)</h2>
+            <p class="card-text  text-left" style="font-size:15px;line-height:1.7;position:relative;top:3px"> Med Pizza
+              of Choice, 1 Garlic Breadstix, 1 Creamy Garlic Breadstix, 2 Pepsi Pet Bottles</p><br><br>
+            <a href="#" class="btn btn-success btn-block btn-lg" style="position:relative;top:8px;">View more</a>
+
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="col-3"data-aos="fade-up" data-aos-offset="200">
+        <div class="card" style="width:265px;height:400px;">
+          <img class="card-img-top" src="../pizzaweb/Assets/deals3.jpeg" style="width:100%">
+          <div class="card-body">
+            <h2 class="card-title" style="font-size:17px;line-height:1;text-align: left;font-weight:25px">Flavour Fun
+              Box of 4 with Free Pepsi</h2>
+            <p class="card-text text-left" style="font-size:15px;line-height:1.7">Get 4 assorted Flavor Fun Pizzas with
+              Free Pepsi. Perfect pizza crust topped with exciting new sauces, cheesy dressing & your favorite
+              toppings<br></p>
+            <br>
+            <a href="#" class="btn btn-success  btn-block btn-lg" style="position:relative;top:-2px;">View more</a>
+
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-3"data-aos="fade-up" data-aos-offset="200">
+        <div class="card" style="width:265px;height:400px;">
+          <img class="card-img-top" src="../pizzaweb/Assets/deals4.jpeg" style="width:100%;">
+          <div class="card-body">
+            <h2 class="card-title" style="font-size:17px;line-height: 1;text-align: left;font-weight:25px">Hut Treat Box
+              4 San Francisco Style</h2>
+            <p class="card-text  text-left" style="font-size:15px;line-height:1.7rem">2 Med Pizza with new San Fransisco
+              Crust, 1 Garlic Breadstix, 1 Creamy Garlic Breadstix, 2 Pepsi Pet Bottles</p><br><br>
+            <a href="#" class="btn btn-success  btn-block btn-lg" style="position:relative;top:-5px;">View more</a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+
+    <div class="row"data-aos="fade-up" data-aos-offset="200">
+      <div class="col-3">
+        <div class="card" style="width:260px;height:350px;">
+          <img class="card-img-top" src="../pizzaweb/Assets/deals5.jpeg" style="width:100%">
+          <div class="card-body">
+            <h2 class="card-title " style="font-size:17px;line-height:1;text-align:left;font-weight:25px">1 Plus 1 San
+              Francisco Style</h2>
+            <p class="card-text text-left" style="font-size:15px;line-height:1.7;position:relative;top:3px">Choose from
+              2 of your favorite personal pizza with new San Fransisco Crust</p><br><br>
+            <a href="#" class="btn btn-success  btn-block btn-lg" style="position:relative;top:-6px;">View more</a>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-3">
+        <div class="card" style="width:260px;height:350px;">
+          <img class="card-img-top" src="../pizzaweb/Assets/deals6.jpeg" style="width:100%">
+          <div class="card-body">
+            <h2 class="card-title" style="font-size:17px;line-height:1;text-align:left;font-weight:25px">Meal for 2 with
+              Pizza & Garlic Bread</h2>
+            <p class="card-text text-left" style="font-size:15px;line-height:1.7">2 Personal Pizza Upto Veg Signature
+              Non Veg Delight, 1 Garlic Bread Stix</p><br>
+            <a href="#" class="btn btn-success  btn-block btn-lg">View more</a>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-3">
+        <div class="card" style="width:260px;height:350px;">
+          <img class="card-img-top" src="../pizzaweb/Assets/deals7.jpeg" style="width:100%">
+          <div class="card-body">
+            <h2 class="card-title" style="font-size:17px;line-height:1;text-align:left;font-weight:25px">Stuffed Crust -
+              Meal for 2</h2>
+            <p class="card-text text-left" style="font-size:15px;line-height:1.7">Delicious Meal for 2 with great choice
+              of pizzas and signature crusts with Pepsi</p><br><br>
+            <a href="#" class="btn btn-success  btn-block btn-lg" style="position:relative;top:-6px;">View more</a>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card" style="width:265px;height:350px;">
+          <img class="card-img-top" src="../pizzaweb/Assets/deals8.jpeg" style="width:100%">
+          <div class="card-body">
+            <h2 class="card-title" style="font-size:16.5px;line-height:1;text-align:left;font-weight:25px">Super Value
+              Deal : 2 Personal Pizzas starting at Rs 299</h2>
+            <p class="card-text text-left" style="font-size:15px;line-height:1.7">Choose any 2 of your favorite personal
+              pizza</p><br><br>
+            <a href="#" class="btn btn-success btn-block btn-lg" style="position:relative;top:8px">View more</a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+
+    <div class="row"data-aos="fade-up" data-aos-offset="200">
+      <div class="col-3">
+        <div class="card" style="width:260px;height:390px;">
+          <img class="card-img-top" src="../pizzaweb/Assets/deals9.jpeg" style="width:100%">
+          <div class="card-body">
+            <h2 class="card-title" style="font-size:17px;line-height:1;text-align:left;font-weight:25px">My Box Starting
+              at Rs.239</h2>
+            <p class="card-text text-left" style="font-size:15px;line-height:1.7rem">Meal for 1: 1 Personal Pizza, 2 Pc
+              Plain Garlic Bread & 1 Pepsi Pet Bottle starting at Rs 239</p><br><br>
+            <a href="#" class="btn btn-success  btn-block btn-lg" style="position:relative;top:30px;">View more</a>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-3">
+        <div class="card" style="width:260px;height:390px;">
+          <img class="card-img-top" src="../pizzaweb/Assets/deals10.jpeg" style="width:100%">
+          <div class="card-body">
+            <h2 class="card-title" style="font-size:17px;line-height:1;text-align:left;font-weight:25px">MY BOX PASTA
+              starting @229</h2>
+            <p class="card-text text-left" style="font-size:15px;line-height:1.7rem">Meal for 1: 1 Pasta, 2 Pc Plain
+              Garlic Bread & 1 Pepsi Pet Bottle</p><br><br><br>
+            <a href="#" class="btn btn-success  btn-block btn-lg" style="position:relative;top:17px;">View more</a>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-3">
+        <div class="card" style=" width:260px;height:390px;">
+          <img class="card-img-top" src="../pizzaweb/Assets/deals11.jpeg" style="width:100%">
+          <div class="card-body">
+            <h2 class="card-title" style="font-size:17px;line-height:1;text-align:left;font-weight:25px">Double Treat (2
+              Pizzas) with Cornetto Double Chocolate</h2>
+            <p class="card-text text-left" style="font-size:15px;line-height:1.7rem">2 Personal Pizzas (Upto Veg
+              Signature/Non Veg Delight), 1 Garlic Bread Stix & 2 Cornetto Double Chocolate (105 ml)</p>
+            <a href="#" class="btn btn-success btn-block btn-lg" style="position:relative;top:34px;">View more</a>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card" style=" width:265px;height:390px;">
+          <img class="card-img-top" src="../pizzaweb/Assets/deals12.jpeg" style="width:100%">
+          <div class="card-body">
+            <h2 class="card-title" style="font-size:17px;line-height:1;text-align:left;font-weight:25px">Momo Mia Choco
+              Sundae Meal for 1</h2>
+            <p class="card-text text-left" style="font-size:15px;line-height:1.7rem">Enjoy "Meal for 1" with 1 Personal
+              Momo Mia pizza + 1 Choco Sundae</p><br>
+            <a href="#" class="btn btn-success btn-block btn-lg" style="position:relative;top:35px;">View more</a>
+          </div>
+        </div>
+      </div>
+    </div><br>
+
+    <div class="row" data-aos="fade-up" data-aos-offset="200">
+      <div class="col-3">
+        <div class="card" style="width:260px;height:400px;">
+          <img class="card-img-top" src="../pizzaweb/Assets/deals13.jpeg" style="width:100%">
+          <div class="card-body">
+            <h2 class="card-title" style="font-size:17px;line-height:1;text-align:left;font-weight:25px">My Box with
+              Choco Sundae</h2>
+            <p class="card-text text-left" style="font-size:15px;line-height:1.7rem">1 Personal Pizza of choice, 2 pc
+              Plain Garlic Bread, 1 Pepsi Pet & 1 Choco Sundae cup (100 ml)</p><br><br>
+            <a href="#" class="btn btn-success  btn-block btn-lg" style="position:relative;top:40px;">View more</a>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-3">
+        <div class="card" style="width:260px;height:400px;">
+          <img class="card-img-top" src="../pizzaweb/Assets/deals14.jpeg" style="width:100%">
+          <div class="card-body">
+            <h2 class="card-title" style="font-size:19px;line-height:1;text-align:left;font-weight:25px">Kids Treat</h2>
+            <p class="card-text text-left" style="font-size:15px;line-height:1.7rem">1 Margherita Personal Pan Pizza & 1
+              Choco Sundae Cup</p><br><br><br>
+            <a href="#" class="btn btn-success  btn-block btn-lg" style="position:relative;top:40px;">View more</a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <br>
+  <div class="container" data-aos="fade-left" data-aos-offset="200">
+    <ul class="pagination justify-content-center">
+      <li class="page-item"><a class="page-link" href="pexplorepg.html"
+          style="background-color:green;color:white;font-weight: bold;">PREVIOUS</a></li>
+      <li class="page-item"><a class="page-link" href="phomepage.html"
+          style="background-color:green;color:white;font-weight: bold;">HOMEPAGE</a></li>
+    </ul>
+  </div>
+  <br>
+  <br>
+
+
+  <div class="card-footer text-white" style="background-color:rgb(0, 0, 0); box-sizing: border-box;"
+    data-aos="fade-left" data-aos-offset="200"> <br>
+    <div class="container">
+      <div class="row">
+        <div class="col-3">
+          <ul>
+            <h5>Order Now</h5>
+            <li style="font-size:12px;list-style-type:none">Deals</li>
+            <li style="font-size:12px;list-style-type:none">Pizza</li>
+            <li style="font-size:12px;list-style-type:none">Sides</li>
+            <li style="font-size:12px;list-style-type:none">Drinks</li>
+            <li style="font-size:12px;list-style-type:none">Desserts</li>
+          </ul>
+        </div>
+        <div class="col-3">
+          <ul>
+            <h5>About Us</h5>
+            <li style="font-size:12px;list-style-type:none">About Us</li>
+            <li style="font-size:12px;list-style-type:none">Contactless Delivery</li>
+            <li style="font-size:12px;list-style-type:none">Nutrition</li>
+        </div>
+        <div class="col-3">
+
+          <h5>Policies</h5>
+          <li style="font-size:12px;list-style-type:none">Terms & Condtions</li>
+          <li style="font-size:12px;list-style-type:none">FAQs & Help</li>
+        </div>
+        <div class="col-3">
+
+          <h5>Visit Pizza Hut</h5>
+          <li style="font-size:12px;list-style-type:none">Terms & Condtions</li>
+          <li style="font-size:12px;list-style-type:none">FAQs & Help</li>
+        </div>
+      </div>
+
+
+
+
+      <div class="row">
+        <div class="col-12" style="text-align:center;">
+          <ul>
+            <li style="list-style-type: none;align-items: center;">
+              <a href="https://apps.apple.com/in/app/pizza-hut-india/id848379180" target="_blank">
+                <img src="../pizzaweb/Assets/appstore.svg">
+              </a>
+              <a href="https://play.google.com/store/apps/details?id=com.pizzahutuk.orderingApp&hl=en_IN"
+                target="_blank">
+                <img src="../pizzaweb/Assets/Googleplay.png" style="width:150px; padding:10px;">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <br>
+
+
+      <div class="row">
+        <div class="col-6">
+          <p>Help Us in Serving Better<a
+              style="padding:9px 7px;background-color:rgb(233, 235, 238);margin-left:16px;border-radius:9px; color:black;"
+              href="https://www.pizzahut.co.in/customer-feedback.php">Give Feedback</a></p>
+        </div>
+        <div class="col-6" style="height: 50px;">
+          <div class="row">
+            <div class="col-lg-12" style="height: 25px;">
+              <h4
+                style="color:white;font-size:1.07rem;text-align: center;line-height: 1;padding-bottom: 8px;position: relative;left:15px">
+                Follow Us</h4>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12" style="height:25px;">
+              <ul
+                style="max-width:200px;margin:0 auto;list-style-type: none;color:white;font-size:1.07rem;box-sizing: border-box;display:flex">
+                <li style="margin: 0 8px;flex:1;list-style-type: none;">
+                  <a href="https://www.facebook.com/pizzahutindia"><img style="width:20px"
+                      src="../pizzaweb/Assets/white-facebook.png"></a>
+                </li>
+                <li style="margin: 0 8px; flex:1;list-style-type: none;">
+                  <a href="https://twitter.com/PizzaHutIN"><img style="width:20px"
+                      src="../pizzaweb/Assets/white-twitter.png"></a>
+                </li>
+                <li style="margin: 0 8px; flex:1;list-style-type: none;">
+                  <a href="https://www.instagram.com/pizzahut_india"><img style="width:20px"
+                      src="../pizzaweb/Assets/white-instagram.png"></a>
+                </li>
+                <li style="margin: 0 8px; flex:1;list-style-type: none;">
+                  <a href="https://www.youtube.com/channel/UCOBjFMnb_0rfwV0plAYXsfQ"><img style="width:20px"
+                      src="../pizzaweb/Assets/white-youtube.png"></a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div><br>
+
+
+      <div class="row">
+        <div class="col-12"
+          style="font-size:13px; font-weight: lighter; text-align: center ;color:#78838c;padding-bottom:8px;">
+          <p>Order a delicious pizza on the
+            go, anywhere, anytime. Pizza Hut is happy to assist you with your home delivery. Every time you order, you
+            get a hot and fresh pizza delivered at your doorstep in less than thirty minutes. *T&C Apply.</p>
+          <p style="position:relative;top:-19px">Hurry up and place your order now!</p>
+          <p style="position:relative;top:-38px">© 2022 Pizza Hut India. All rights reserved. License Number:
+            10017011004220</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+
+</html>
